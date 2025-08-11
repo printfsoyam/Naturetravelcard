@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(65, 65, 65);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    height: 540px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 50px;
+    box-shadow: 2px 2px 10px 10px black;
+}
+
+.cardimg {
+    height: 300px;
+    width: 280px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 15px;
+    background-size: cover;
+}
+.pic{
+    background-image: url('p.jpg');
+}
+
+.nature {
+    margin: 9px 10px;
+    height: 30px;
+    width: 70px;
+    border: 2px solid rgb(150, 145, 145);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 37, 37);
+    padding: 5px 11px 5px 11px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.lake {
+    margin: 9px;
+    height: 30px;
+    width: 70px;
+    border: 2px solid rgb(150, 145, 145);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 37, 37);
+    padding: 5px 15px 5px 15px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.title {
+    margin: 2px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desc {
+    margin: 2px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.card a {
+    display: block;
+    height: 30px;
+    width: 100px;
+    margin: 20px auto;
+    padding:5px;
+    border-radius: 15px;
+    background-color: rgb(190, 190, 252);
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    text-align: center;
+}
+.card:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+     box-shadow: 2px 2px 15px 5px rgb(255, 255, 255);
+}
+.card a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
