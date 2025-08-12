@@ -29,7 +29,8 @@ body {
     border-radius: 15px;
     background-size: cover;
 }
-.pic{
+
+.pic {
     background-image: url('p.jpg');
 }
 
@@ -77,30 +78,34 @@ body {
     height: 30px;
     width: 100px;
     margin: 20px auto;
-    padding:5px;
+    padding: 5px;
     border-radius: 15px;
     background-color: rgb(190, 190, 252);
     color: rgb(0, 0, 255);
     text-decoration: none;
     text-align: center;
 }
-.card:hover{
+
+.card:hover {
     background-color: black;
     color: whitesmoke;
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
-     box-shadow: 2px 2px 15px 5px rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px 5px rgb(255, 255, 255);
 }
-.card a:hover{
+
+.card a:hover {
     background-color: rgb(255, 255, 255);
     color: black;
 }
-.lake:hover{
+
+.lake:hover {
     background-color: black;
     color: white;
 }
-.nature:hover{
-     background-color: black;
+
+.nature:hover {
+    background-color: black;
     color: white;
 }
